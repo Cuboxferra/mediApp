@@ -1,0 +1,46 @@
+[
+  
+    {
+      "icon": "newspaper-outline",
+      "name": "Historial Medico",
+      "redirectTo": "/alert"
+    },
+    {
+      "icon": "settings-outline",
+      "name": "Configuración",
+      "redirectTo": "/alert"
+    },
+    {
+      "icon": "chatbubbles-outline",
+      "name": "Contacto",
+      "redirectTo": "/alert"
+    },
+    {
+      "icon": "notifications-outline",
+      "name": "Noticicaciones",
+      "redirectTo": "/alert"
+    },
+    {
+      "icon": "qr-code-outline",
+      "name": "Codigo promocional",
+      "redirectTo": "/alert"
+    },
+     {
+      "icon": "share-social-outline",
+      "name": "Comparte con amigos",
+      "redirectTo": "/alert"
+    },
+    {
+      "icon":"logo-whatsapp",
+      "name": "siguenos",
+      "redirectTo": "/alert"
+    }
+
+
+
+
+  ]
+
+
+
+

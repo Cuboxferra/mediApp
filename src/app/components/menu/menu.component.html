@@ -1,0 +1,32 @@
+<ion-menu side="start" menuId="primerMenu" contentId="principal">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu principal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+<ion-item>
+  <ion-avatar>
+    <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+  </ion-avatar>
+<p>Nombre</p>
+
+<p  slot="center">Edad</p>
+
+<p>Sexo</p>
+
+</ion-item>
+<ion-menu-toggle *ngFor="let c of componentes | async">
+      <ion-item 
+        [routerLink]= "c.redirectTo">
+      <ion-icon slot="start" [name]="c.icon"></ion-icon>
+      <ion-label>{{c.name}}</ion-label>
+    
+    </ion-item>
+
+  </ion-menu-toggle>    
+
+    </ion-list>
+  </ion-content>
+</ion-menu>
